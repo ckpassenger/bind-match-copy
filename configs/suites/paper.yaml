@@ -1,0 +1,163 @@
+paper_version: v32
+n_samples_per_condition: 200
+indexing: zero_based
+standard_training_seeds:
+- 42
+- 43
+- 44
+standard_step: 30000
+sections:
+- id: localization
+  paper: 3.1 / Fig2
+  models:
+  - gdn_hybrid_8l
+  - swa4_hybrid_8l
+  - transformer_8l
+  probes:
+  - lag
+  - bind
+  - match
+  layers: all
+  n_prompts_per_condition: 200
+- id: support
+  paper: 3.2 / Fig3
+  models:
+  - gdn_hybrid_8l
+  - gdn_no_conv_8l
+  - gdn_conv2_8l
+  - swa4_hybrid_8l
+  - transformer_8l
+  experiments:
+  - gdn_baseline
+  - gdn_early_lr
+  - swa_baseline
+  - swa_early_lr
+  server_required:
+  - GDN lag ablation and late-window schedules
+  - other Transformer LR controls
+- id: path_selection
+  paper: 3.3 / Table1
+  probes:
+  - path
+  - selection
+  - copy
+  - edge
+  - factorial
+  sender_receiver_selection: explicitly recover per training run; do not assume one
+    shared route
+  receivers_eight_layer:
+  - 3
+  - 7
+- id: formation
+  paper: 3.4 / Fig4
+  swa_windows:
+  - 2
+  - 8
+  - 16
+  swa_steps:
+  - 1000
+  - 2000
+  - 3000
+  - 4000
+  - 5000
+  - 6000
+  - 7000
+  - 8000
+  - 9000
+  - 10000
+  - 15000
+  - 20000
+  - 30000
+  data_conditions:
+  - natural
+  - ih_enriched
+  data_steps:
+  - 500
+  - 1000
+  - 1500
+  - 2000
+  - 2500
+  - 3000
+  - 4000
+  - 5000
+  - 8000
+  - 10000
+  - 15000
+  - 20000
+  - 30000
+  coordinate: endpoint_selected_layer_per_run_per_readout
+- id: scale318m
+  paper: 3.5 / Fig5A
+  n_layers: 16
+  global_layers:
+  - 3
+  - 7
+  - 11
+  - 15
+  efficient_groups:
+    G0:
+    - 0
+    - 1
+    - 2
+    G1:
+    - 4
+    - 5
+    - 6
+    G2:
+    - 8
+    - 9
+    - 10
+    G3:
+    - 12
+    - 13
+    - 14
+  bottom_groups:
+  - G0
+  - G1
+  model_config: null
+  reason: derive dimensions and state_dict from real server checkpoint; parameter
+    label is insufficient
+  archive_model_run_rows: 47
+- id: qwen
+  paper: 3.5 / Fig5B and Appendix
+  models:
+  - name: Qwen3-4B
+    layers: 36
+    query_heads: 32
+    kv_heads: 8
+  - name: Qwen3.5-4B
+    layers: 32
+    query_heads: 16
+    kv_heads: 4
+    global_layers:
+    - 3
+    - 7
+    - 11
+    - 15
+    - 19
+    - 23
+    - 27
+    - 31
+  component_sender: 18
+  component_receiver: 19
+  restricted_min_token_id: 180000
+  n_prompts_per_condition: 200
+  checkpoint_revisions: null
+- id: recall
+  paper: 3.6 / Table2
+  domains_8layer:
+  - wiki
+  - python
+  - math
+  - ood_python
+  - ood_math
+  domains_318m:
+  - wiki
+  - python
+  - math
+  n_sequences_per_condition: 200
+  original_sequence_allocation: null
+  matched_transformer_lr_seeds:
+  - 42
+  - 43
+  local_head_has_separate_baseline: true

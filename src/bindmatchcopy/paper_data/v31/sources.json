@@ -1,0 +1,72 @@
+{
+  "paper_version": "v31",
+  "paper_file": "BindMatchCopy_v31.pdf",
+  "paper_sha256": "378a7e06a4027bfea0305133639fb3507d8ad48ff551214a18055ecfaabfd2cd",
+  "files": [
+    {
+      "path": "tables/localization.csv",
+      "sha256": "6d869cc0840dc1f09ababc4c70f54637ee2016394b2e0536a7fa2306add60546",
+      "source_path": "source_tables/v24_fig2_layer_cells.csv",
+      "source_sha256": "b8833e64f5866df6f26bad23161c76a0f43b7bd8c4cc8255b24da695ef5267cc",
+      "transformation": "absolute workspace source prefix replaced with workspace_source/"
+    },
+    {
+      "path": "tables/support.csv",
+      "sha256": "72814869fec4249df8e3ced0888674a6ceca0bb8d18f1fccf782299ef325549a",
+      "source_path": "source_tables/v17_heatmap_cells.csv",
+      "source_sha256": "6e9f58bc59e15d28ed439a3934d030df5da27ed242fce6b0d03b1cf9722dd34a",
+      "transformation": "absolute workspace source prefix replaced with workspace_source/"
+    },
+    {
+      "path": "tables/scale318m.csv",
+      "sha256": "8b18857c21df0a11ee8faf86eca38641ee8726e083a0b74fe00d3a7fa331a56b",
+      "source_path": "source_tables/v20_main_heatmap_cells.csv",
+      "source_sha256": "eab419eebc88cdb01525f6eca56aae3f9d32c6c4917431af4b47c25e47143341",
+      "transformation": "absolute workspace source prefix replaced with workspace_source/"
+    },
+    {
+      "path": "tables/qwen_fixed_token.csv",
+      "sha256": "427eb9c03942d3556ec0d7a753d54903d340dd499d847788b1dcfb3146426500",
+      "source_path": "source_tables/v20_qwen_low_frequency.csv",
+      "source_sha256": "0242cff60544a7b4088b99854f5a6b1214dd1a06c694ca0ebd9986407845eb00",
+      "transformation": "absolute workspace source prefix replaced with workspace_source/"
+    },
+    {
+      "path": "tables/formation.csv",
+      "sha256": "7a3cb64cb9ab86d5c0b3ae7745048f0a37d8440eeaa93952967b1bbbf2c95b03",
+      "source_path": "data/v20/formation_trajectories.csv",
+      "source_sha256": "28723a401c6e3e249b0c4719462491d74089b1fdbcbd1b476c83eeb2b012bea0",
+      "transformation": "absolute workspace source prefix replaced with workspace_source/"
+    },
+    {
+      "path": "tables/recall_expected.csv",
+      "sha256": "5377e0d720c07c600c5b6d0e4bc033ce452e62145e40ca60b2a56052b4bd875a",
+      "source_path": "source_tables/merged_recall_v28.csv",
+      "source_sha256": "befaa0220e70d82fff2bcbbb56cfac8b491eab9e8bd38d0c3fae825782bcc264",
+      "transformation": "absolute workspace source prefix replaced with workspace_source/"
+    },
+    {
+      "path": "tables/recall_layout.json",
+      "sha256": "e149349c89cf8c8f4653535520e6c0f56754716a275159097041e93509e2e9b4",
+      "source_path": "source_tables/recall_tables_v31.json",
+      "source_sha256": "e149349c89cf8c8f4653535520e6c0f56754716a275159097041e93509e2e9b4",
+      "transformation": "absolute workspace source prefix replaced with workspace_source/"
+    },
+    {
+      "path": "tables/recall_raw.csv",
+      "sha256": "f3167e7889e58de2562551d0572c69d7bdfe6df60841bace71ae0f0ba9a4b0ee",
+      "source_path": "data/behavior_seedwise.csv",
+      "source_sha256": "5941374764e74e11cb176a11ae7ce5fe9afe0532685a3db728b0bbc4a9917544",
+      "transformation": "selected only runs and buckets explicitly used by v31 recall tables; identical duplicate records collapsed"
+    },
+    {
+      "path": "tables/recall_extra.csv",
+      "sha256": "afca78f2aff9fc1c758bad35784cb2b2d6489b4754d4d87f3a8ef0113562e9a3",
+      "source_path": "source_tables/v14_behavior_selected.csv",
+      "source_sha256": "09800b566cd109d175707acfea90adfe3c358544c93f2e08ad13a274e3918522",
+      "transformation": "selected only runs and buckets explicitly used by v31 recall tables; identical duplicate records collapsed"
+    }
+  ],
+  "data_origin": "archived measurements carried from v31; not reevaluated in this release",
+  "release_paper_version": "v32"
+}

@@ -1,0 +1,53 @@
+model:
+  vocab_size: 50257
+  d_model: 512
+  n_heads: 8
+  d_ff: 2048
+  n_layers: 8
+  max_seq_len: 1024
+  dropout: 0.0
+  layer_types:
+  - transformer
+  - transformer
+  - transformer
+  - transformer
+  - transformer
+  - transformer
+  - transformer
+  - transformer
+  gdn_head_dim: null
+  gdn_expand_v: 2.0
+  la_conv_kernel_size: 4
+  sliding_window_size: 4
+  use_rope: false
+  swa_use_rope: true
+  output_type: generation
+  num_classes: 64
+training:
+  total_steps: 30000
+  batch_size: 8
+  grad_accum: 8
+  seq_len: 1024
+  lr: 0.0003
+  min_lr: 3.0e-05
+  warmup_steps: 1000
+  grad_clip: 1.0
+  precision: bf16
+  weight_decay: 0.1
+  log_every: 50
+  ckpt_every: 1000
+metadata:
+  implementation: single_device
+  paper_version: v32
+local_head:
+  layers:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  head_idx: 0
+  lag: 1
+  always: true
+  release_step: 3000

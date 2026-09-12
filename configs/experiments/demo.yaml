@@ -1,0 +1,31 @@
+model:
+  vocab_size: 128
+  d_model: 32
+  n_heads: 4
+  d_ff: 64
+  n_layers: 2
+  max_seq_len: 64
+  dropout: 0.0
+  layer_types:
+  - transformer
+  - transformer
+  gdn_head_dim: null
+  gdn_expand_v: 2.0
+  la_conv_kernel_size: 4
+  sliding_window_size: 4
+  use_rope: false
+  swa_use_rope: true
+  output_type: generation
+  num_classes: 64
+training:
+  total_steps: 6
+  batch_size: 2
+  seq_len: 32
+  grad_accum: 2
+  lr: 0.001
+  min_lr: 0.0001
+  warmup_steps: 1
+  log_every: 1
+  ckpt_every: 3
+metadata:
+  purpose: synthetic smoke only

@@ -1,0 +1,79 @@
+group,model_id,model,variant,bucket,training_seeds,mean,sample_sd,source
+SWA windows,N20_swa2,SWA,Window 2,total,42|43|44,41.54,1.2678722333105972,data/behavior_seedwise.csv
+SWA windows,N20_swa2,SWA,Window 2,B3c_far,42|43|44,2.256666666666667,0.05131601439446867,data/behavior_seedwise.csv
+SWA windows,N20_swa2,SWA,Window 2,B3d_near,42|43|44,2.85,0.35930488446443354,data/behavior_seedwise.csv
+SWA windows,N20_swa2,SWA,Window 2,B3d_mid,42|43|44,14.973333333333333,0.6035174672976196,data/behavior_seedwise.csv
+SWA windows,N20_swa2,SWA,Window 2,B3d_far,42|43|44,28.986666666666668,0.42594991880892774,data/behavior_seedwise.csv
+SWA windows,N20_swa2,SWA,Window 2,code_long_id,42|43|44,28.046666666666667,2.2148212869966137,data/behavior_seedwise.csv
+SWA windows,N20_swa8,SWA,Window 8,total,42|43|44,39.46666666666667,0.5853488988059466,data/behavior_seedwise.csv
+SWA windows,N20_swa8,SWA,Window 8,B3c_far,42|43|44,2.2466666666666666,0.07234178138070234,data/behavior_seedwise.csv
+SWA windows,N20_swa8,SWA,Window 8,B3d_near,42|43|44,2.7833333333333337,0.1457166199626293,data/behavior_seedwise.csv
+SWA windows,N20_swa8,SWA,Window 8,B3d_mid,42|43|44,14.003333333333334,0.9350044563173657,data/behavior_seedwise.csv
+SWA windows,N20_swa8,SWA,Window 8,B3d_far,42|43|44,24.19,0.9600520819205601,data/behavior_seedwise.csv
+SWA windows,N20_swa8,SWA,Window 8,code_long_id,42|43|44,23.54,2.855013134820924,data/behavior_seedwise.csv
+SWA windows,N20_swa16,SWA,Window 16,total,42|43|44,39.946666666666665,0.8587393861546918,data/behavior_seedwise.csv
+SWA windows,N20_swa16,SWA,Window 16,B3c_far,42|43|44,2.26,0.06557438524301996,data/behavior_seedwise.csv
+SWA windows,N20_swa16,SWA,Window 16,B3d_near,42|43|44,3.1266666666666665,0.3426854728950927,data/behavior_seedwise.csv
+SWA windows,N20_swa16,SWA,Window 16,B3d_mid,42|43|44,14.306666666666667,2.0246069577410157,data/behavior_seedwise.csv
+SWA windows,N20_swa16,SWA,Window 16,B3d_far,42|43|44,22.403333333333332,2.5477506419061764,data/behavior_seedwise.csv
+SWA windows,N20_swa16,SWA,Window 16,code_long_id,42|43|44,20.91,6.758912634440543,data/behavior_seedwise.csv
+GDN interventions,N14_baseline,GDN,Baseline,total,42|43|44,40.17333333333333,1.9957538258345735,data/behavior_seedwise.csv
+GDN interventions,N14_baseline,GDN,Baseline,B3c_far,42|43|44,2.3833333333333333,0.04163331998932269,data/behavior_seedwise.csv
+GDN interventions,N14_baseline,GDN,Baseline,B3d_near,42|43|44,2.7533333333333334,0.39145029484384525,data/behavior_seedwise.csv
+GDN interventions,N14_baseline,GDN,Baseline,B3d_mid,42|43|44,16.336666666666666,1.9933472686246463,data/behavior_seedwise.csv
+GDN interventions,N14_baseline,GDN,Baseline,B3d_far,42|43|44,25.983333333333334,1.231638475094593,data/behavior_seedwise.csv
+GDN interventions,N14_baseline,GDN,Baseline,code_long_id,42|43|44,29.003333333333334,1.4318635875436359,data/behavior_seedwise.csv
+GDN interventions,C2_prime_3K,GDN,LR $\times0.1$,total,42|43|44,38.85666666666667,1.373511315327739,data/behavior_seedwise.csv
+GDN interventions,C2_prime_3K,GDN,LR $\times0.1$,B3c_far,42|43|44,2.59,0.05291502622129186,data/behavior_seedwise.csv
+GDN interventions,C2_prime_3K,GDN,LR $\times0.1$,B3d_near,42|43|44,2.64,0.27404379212089447,data/behavior_seedwise.csv
+GDN interventions,C2_prime_3K,GDN,LR $\times0.1$,B3d_mid,42|43|44,12.516666666666666,0.9258689612106744,data/behavior_seedwise.csv
+GDN interventions,C2_prime_3K,GDN,LR $\times0.1$,B3d_far,42|43|44,23.346666666666668,0.34355979586286517,data/behavior_seedwise.csv
+GDN interventions,C2_prime_3K,GDN,LR $\times0.1$,code_long_id,42|43|44,21.023333333333333,1.5971328477410178,data/behavior_seedwise.csv
+GDN interventions,N14_no_conv,GDN,Conv removed,total,42|43|44,38.68666666666667,1.2590604962960816,source_tables/v14_behavior_selected.csv
+GDN interventions,N14_no_conv,GDN,Conv removed,B3c_far,42|43|44,2.7,0.04582575694955854,source_tables/v14_behavior_selected.csv
+GDN interventions,N14_no_conv,GDN,Conv removed,B3d_near,42|43|44,2.8333333333333335,0.7266590213665096,source_tables/v14_behavior_selected.csv
+GDN interventions,N14_no_conv,GDN,Conv removed,B3d_mid,42|43|44,12.503333333333334,0.27970222261064276,source_tables/v14_behavior_selected.csv
+GDN interventions,N14_no_conv,GDN,Conv removed,B3d_far,42|43|44,21.746666666666666,1.9930211572718775,source_tables/v14_behavior_selected.csv
+GDN interventions,N14_no_conv,GDN,Conv removed,code_long_id,42|43|44,18.72,4.569989059067866,source_tables/v14_behavior_selected.csv
+GDN interventions,N14_shift_L1L5,GDN,"Global L1,L5",total,42|43|44,38.07666666666667,1.2761008319616944,source_tables/v14_behavior_selected.csv
+GDN interventions,N14_shift_L1L5,GDN,"Global L1,L5",B3c_far,42|43|44,2.263333333333333,0.03511884584284239,source_tables/v14_behavior_selected.csv
+GDN interventions,N14_shift_L1L5,GDN,"Global L1,L5",B3d_near,42|43|44,2.543333333333333,0.011547005383792526,source_tables/v14_behavior_selected.csv
+GDN interventions,N14_shift_L1L5,GDN,"Global L1,L5",B3d_mid,42|43|44,13.49,1.5539305003763841,source_tables/v14_behavior_selected.csv
+GDN interventions,N14_shift_L1L5,GDN,"Global L1,L5",B3d_far,42|43|44,23.82,1.639176622576102,source_tables/v14_behavior_selected.csv
+GDN interventions,N14_shift_L1L5,GDN,"Global L1,L5",code_long_id,42|43|44,23.543333333333333,2.9275473238418077,source_tables/v14_behavior_selected.csv
+SWA learning rate,P0_swa3_tf_base,SWA,Baseline,total,42|43|44,41.97666666666667,0.49217205663602276,data/behavior_seedwise.csv
+SWA learning rate,P0_swa3_tf_base,SWA,Baseline,B3c_far,42|43|44,2.3266666666666667,0.05507570547286096,data/behavior_seedwise.csv
+SWA learning rate,P0_swa3_tf_base,SWA,Baseline,B3d_near,42|43|44,2.86,0.21794494717703367,data/behavior_seedwise.csv
+SWA learning rate,P0_swa3_tf_base,SWA,Baseline,B3d_mid,42|43|44,15.523333333333333,1.0920775308252308,data/behavior_seedwise.csv
+SWA learning rate,P0_swa3_tf_base,SWA,Baseline,B3d_far,42|43|44,26.61,1.1781765572273117,data/behavior_seedwise.csv
+SWA learning rate,P0_swa3_tf_base,SWA,Baseline,code_long_id,42|43|44,28.30666666666667,3.972119501391332,data/behavior_seedwise.csv
+SWA learning rate,P0_swa3_tf_damp4K,SWA,LR $\times0.1$,total,42|43|44,40.54,1.4952257354660543,data/behavior_seedwise.csv
+SWA learning rate,P0_swa3_tf_damp4K,SWA,LR $\times0.1$,B3c_far,42|43|44,2.6433333333333335,0.055075705472861176,data/behavior_seedwise.csv
+SWA learning rate,P0_swa3_tf_damp4K,SWA,LR $\times0.1$,B3d_near,42|43|44,2.6766666666666667,0.25006665778014736,data/behavior_seedwise.csv
+SWA learning rate,P0_swa3_tf_damp4K,SWA,LR $\times0.1$,B3d_mid,42|43|44,12.943333333333333,1.695415386662907,data/behavior_seedwise.csv
+SWA learning rate,P0_swa3_tf_damp4K,SWA,LR $\times0.1$,B3d_far,42|43|44,25.626666666666665,0.8723722447059702,data/behavior_seedwise.csv
+SWA learning rate,P0_swa3_tf_damp4K,SWA,LR $\times0.1$,code_long_id,42|43|44,23.486666666666668,2.1232365231724275,data/behavior_seedwise.csv
+Transformer learning rate,pure_tf_8L,Transformer,Baseline,total,42|43,41.465,2.071822868876584,data/behavior_seedwise.csv
+Transformer learning rate,pure_tf_8L,Transformer,Baseline,B3c_far,42|43,2.6550000000000002,0.03535533905932756,data/behavior_seedwise.csv
+Transformer learning rate,pure_tf_8L,Transformer,Baseline,B3d_near,42|43,2.59,0.1414213562373093,data/behavior_seedwise.csv
+Transformer learning rate,pure_tf_8L,Transformer,Baseline,B3d_mid,42|43,15.025,1.930401512639275,data/behavior_seedwise.csv
+Transformer learning rate,pure_tf_8L,Transformer,Baseline,B3d_far,42|43,25.735,0.28991378028648457,data/behavior_seedwise.csv
+Transformer learning rate,pure_tf_8L,Transformer,Baseline,code_long_id,42|43,25.009999999999998,0.6222539674441612,data/behavior_seedwise.csv
+Transformer learning rate,ptf_damp_T5_gdn_matched,Transformer,LR $\times0.1$,total,42|43,51.11,2.9274220741123074,data/behavior_seedwise.csv
+Transformer learning rate,ptf_damp_T5_gdn_matched,Transformer,LR $\times0.1$,B3c_far,42|43,3.325,0.03535533905932756,data/behavior_seedwise.csv
+Transformer learning rate,ptf_damp_T5_gdn_matched,Transformer,LR $\times0.1$,B3d_near,42|43,3.24,0.1414213562373093,data/behavior_seedwise.csv
+Transformer learning rate,ptf_damp_T5_gdn_matched,Transformer,LR $\times0.1$,B3d_mid,42|43,19.34,2.6728636328851505,data/behavior_seedwise.csv
+Transformer learning rate,ptf_damp_T5_gdn_matched,Transformer,LR $\times0.1$,B3d_far,42|43,33.6,1.4142135623730951,data/behavior_seedwise.csv
+Transformer learning rate,ptf_damp_T5_gdn_matched,Transformer,LR $\times0.1$,code_long_id,42|43,34.855000000000004,1.7748380207782328,data/behavior_seedwise.csv
+Transformer scaffold,N23_ptf_baseline,Transformer,Scaffold baseline,total,42|43|44,42.57666666666667,2.0781081139664845,data/behavior_seedwise.csv
+Transformer scaffold,N23_ptf_baseline,Transformer,Scaffold baseline,B3c_far,42|43|44,2.6233333333333335,0.051316014394468916,data/behavior_seedwise.csv
+Transformer scaffold,N23_ptf_baseline,Transformer,Scaffold baseline,B3d_near,42|43|44,3.2600000000000002,1.0999545445153633,data/behavior_seedwise.csv
+Transformer scaffold,N23_ptf_baseline,Transformer,Scaffold baseline,B3d_mid,42|43|44,14.673333333333334,1.8075489850439288,data/behavior_seedwise.csv
+Transformer scaffold,N23_ptf_baseline,Transformer,Scaffold baseline,B3d_far,42|43|44,24.95,2.3667910765422455,data/behavior_seedwise.csv
+Transformer scaffold,N23_ptf_baseline,Transformer,Scaffold baseline,code_long_id,42|43|44,23.23333333333333,6.464335490468709,data/behavior_seedwise.csv
+Transformer scaffold,N23_ptf_lag1_always,Transformer,Local head,total,42|43|44,43.16,1.6600903589865228,data/behavior_seedwise.csv
+Transformer scaffold,N23_ptf_lag1_always,Transformer,Local head,B3c_far,42|43|44,2.506666666666667,0.055075705472860864,data/behavior_seedwise.csv
+Transformer scaffold,N23_ptf_lag1_always,Transformer,Local head,B3d_near,42|43|44,3.313333333333333,0.6616141876753651,data/behavior_seedwise.csv
+Transformer scaffold,N23_ptf_lag1_always,Transformer,Local head,B3d_mid,42|43|44,17.46333333333333,1.7577637308049492,data/behavior_seedwise.csv
+Transformer scaffold,N23_ptf_lag1_always,Transformer,Local head,B3d_far,42|43|44,27.093333333333334,2.193680317031936,data/behavior_seedwise.csv
+Transformer scaffold,N23_ptf_lag1_always,Transformer,Local head,code_long_id,42|43|44,27.59,5.91816694593858,data/behavior_seedwise.csv

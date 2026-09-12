@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bindmatchcopy"
+version = "0.3.0"
+description = "Bind–Match–Copy: model probes, training controls, and paper evidence"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+requires-python = ">=3.10"
+authors = [{name = "BindMatchCopy authors"}]
+dependencies = ["numpy>=1.24", "PyYAML>=6"]
+
+[project.optional-dependencies]
+cpu = ["torch>=2.2"]
+analysis = ["matplotlib>=3.8"]
+gdn = ["torch>=2.2", "flash-linear-attention"]
+qwen = ["torch>=2.2", "transformers"]
+dev = ["pytest>=8", "torch>=2.2", "matplotlib>=3.8"]
+
+[project.scripts]
+bmc = "bindmatchcopy.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+bindmatchcopy = ["paper_data/v31/**/*", "paper_data/v31/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

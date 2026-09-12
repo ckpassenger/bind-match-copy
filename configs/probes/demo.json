@@ -1,0 +1,11 @@
+{
+  "seq_len": 32,
+  "needle_min": 64,
+  "needle_max": 80,
+  "filler_min": 0,
+  "filler_max": 60,
+  "replacement_min": 0,
+  "replacement_max": 60,
+  "distance_min": 8,
+  "distance_max": 16
+}
