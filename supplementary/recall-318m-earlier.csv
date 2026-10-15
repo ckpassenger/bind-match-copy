@@ -1,0 +1,4 @@
+Variant,Layers,Single far,Multiple near,Multiple mid,Multiple far,Identifier reuse
+Baseline,All,2.58 ± 0.10,3.47 ± 0.38,14.00 ± 0.97,21.97 ± 1.11,21.17 ± 3.08
+Conv removed,"0–2,4–6",2.55 ± 0.07,3.10 ± 0.44,14.47 ± 1.19,23.07 ± 0.89,26.45 ± 2.51
+LR ×0.1,"4–6,12–14",2.60 ± 0.16,3.13 ± 0.26,14.18 ± 0.74,23.22 ± 0.70,26.14 ± 1.21

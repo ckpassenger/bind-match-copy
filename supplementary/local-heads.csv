@@ -1,0 +1,6 @@
+Condition,Constrained layers,Active interval,Carrying layers (42/43/44)
+Baseline,None,None,L5 / L5 / L3
+Lag-1 persistent,L0–L5,Train and evaluation,L2 / L2 / L2
+Lag-1 early,L0–L5,First 3K steps,L2 / L4 / L3
+Lag-1 all-layer early,L0–L7,First 3K steps,L2
+Lag-2 early,L0–L5,First 3K steps,L3 / L4 / L3

@@ -1,0 +1,5 @@
+Model,Peak Carrying,Peak Matching,Multiple-far PPL,Identifier PPL
+GDN–FullAttn,2.60,4.99,24.79,27.35
+Pure GDN,<0.02,0.37,66.37,119.23
+GDN–SWA (16),<0.02,0.36,63.41,114.04
+SWA-only (4),0.00,0.05,—,—

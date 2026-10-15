@@ -1,0 +1,5 @@
+Run,Variant,Overall,Multiple mid,Multiple far,Identifier reuse
+42,Baseline,40.00,13.66,25.94,24.57
+42,LR ×0.1,53.18,21.23,34.60,36.11
+43,Baseline,42.93,16.39,25.53,25.45
+43,LR ×0.1,49.04,17.45,32.60,33.60

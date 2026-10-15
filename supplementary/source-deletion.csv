@@ -1,0 +1,7 @@
+Model,Run,Correct source,Distractor,Off-site,Random
+GDN Early LR reduction,42,3.77543,-0.01371,-0.00193,-0.00095
+GDN Early LR reduction,43,4.59043,-0.01569,-0.00366,-0.00306
+GDN Early LR reduction,44,5.20782,-0.02279,-0.00230,-0.00068
+GDN Baseline,42,3.02540,-0.00465,-0.00123,-0.00107
+GDN Baseline,43,3.40174,-0.00147,0.00153,0.00079
+GDN Baseline,44,3.12901,-0.00465,-0.00075,0.00075

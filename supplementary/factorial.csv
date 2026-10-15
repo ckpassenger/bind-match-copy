@@ -1,0 +1,14 @@
+Model / step,Sender,Receiver,Carrying: open,Carrying: closed,Copying: open,Copying: closed
+318M / Baseline / 30K,6,7,2.197,0.177,3.303,-0.003
+318M / Baseline / 50K,6,7,1.706,0.137,2.624,-0.002
+318M / Baseline / 30K,10,11,1.747,0.000,4.441,0.001
+318M / Baseline / 30K,6,7,2.135,0.449,2.637,-0.011
+GDN / LR ×0.1 / 30K,6,7,3.387,0.000,7.044,0.000
+GDN hybrid / 30K,2,7,2.623,2.152,0.978,0.000
+GDN / Enriched text / 30K,2,7,2.869,2.729,0.280,0.000
+GDN / Natural text / 30K,2,7,2.570,2.102,0.974,0.000
+Transformer / Enriched text / 30K,5,6,2.279,0.007,4.673,-0.003
+Transformer / Natural text / 30K,5,6,3.212,0.023,6.115,-0.002
+GDN / Formation baseline / 30K,2,3,2.564,0.085,4.731,0.003
+GDN / LR ×0.1 (formation) / 30K,6,7,3.375,0.000,7.078,0.000
+Transformer / 30K,5,6,2.987,0.019,5.790,-0.002

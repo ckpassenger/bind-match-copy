@@ -1,0 +1,3 @@
+Model,Peak Carrying,Peak Matching,Overall PPL,Single-far PPL,Multiple-far PPL,Identifier PPL
+GDN–FullAttn,2.60,4.99,38.21,2.35,24.79,27.35
+GDN–DSA,1.70,3.11,31.09,3.08,27.42,24.45

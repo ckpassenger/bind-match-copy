@@ -1,0 +1,37 @@
+Model,Run,Layer,Control,Prompts,Signed effect,Clean margin
+GDN / early LR ×0.1,42,7,Source switch,200,-7.514385,-3.547684
+GDN / early LR ×0.1,42,7,Unmatched query,200,3.413649,3.308050
+GDN / early LR ×0.1,42,7,Filler perturbation,200,-0.001492,3.779467
+GDN / early LR ×0.1,43,7,Source switch,200,-9.784728,-4.773087
+GDN / early LR ×0.1,43,7,Unmatched query,200,5.078425,5.077450
+GDN / early LR ×0.1,43,7,Filler perturbation,200,-0.004364,4.893390
+GDN / early LR ×0.1,44,7,Source switch,200,-9.304043,-4.871996
+GDN / early LR ×0.1,44,7,Unmatched query,200,4.838954,4.461815
+GDN / early LR ×0.1,44,7,Filler perturbation,200,-0.005048,5.435597
+GDN baseline,42,3,Source switch,200,-4.533950,-2.741778
+GDN baseline,42,3,Unmatched query,200,2.547258,2.639873
+GDN baseline,42,3,Filler perturbation,200,-0.001137,2.547714
+GDN baseline,43,3,Source switch,200,-5.374037,-2.887168
+GDN baseline,43,3,Unmatched query,200,2.696593,2.805459
+GDN baseline,43,3,Filler perturbation,200,-0.000345,3.033023
+GDN baseline,44,3,Source switch,200,-5.787158,-3.067984
+GDN baseline,44,3,Unmatched query,200,2.855421,2.541496
+GDN baseline,44,3,Filler perturbation,200,0.002115,3.216968
+SWA baseline,42,3,Source switch,200,-5.228091,-2.675532
+SWA baseline,42,3,Unmatched query,200,2.661838,2.485953
+SWA baseline,42,3,Filler perturbation,200,-0.001225,2.803773
+SWA baseline,43,3,Source switch,200,-5.467401,-2.731477
+SWA baseline,43,3,Unmatched query,200,2.728702,2.625663
+SWA baseline,43,3,Filler perturbation,200,0.003486,2.991880
+SWA baseline,44,3,Source switch,200,-5.124694,-2.627593
+SWA baseline,44,3,Unmatched query,200,2.353484,2.180641
+SWA baseline,44,3,Filler perturbation,200,0.001390,2.836335
+Transformer,42,6,Source switch,200,-5.169070,-2.482256
+Transformer,42,6,Unmatched query,200,2.804946,2.770204
+Transformer,42,6,Filler perturbation,200,0.001740,2.662822
+Transformer,43,7,Source switch,200,-6.311495,-3.641275
+Transformer,43,7,Unmatched query,200,3.084381,3.624437
+Transformer,43,7,Filler perturbation,200,0.001637,3.306856
+Transformer,44,6,Source switch,200,-4.989057,-2.555081
+Transformer,44,6,Unmatched query,200,2.350471,2.287946
+Transformer,44,6,Filler perturbation,200,0.000026,2.974430

@@ -1,0 +1,8 @@
+Model,Layout,Heads,Parameters
+GDN hybrid,"[GDN³, FullAttn]²",8,78.88M
+SWA hybrid (window 4),"[SWA₄³, FullAttn]²",8,77.26M
+Transformer,FullAttn⁸,8,77.26M
+SWA window 2,"[SWA₂³, FullAttn]²",8,77.26M
+SWA window 8,"[SWA₈³, FullAttn]²",8,77.26M
+SWA window 16,"[SWA₁₆³, FullAttn]²",8,77.26M
+GDN convolution width 2,"GDN hybrid, kernel 2",8,"Baseline GDN count −24,576"

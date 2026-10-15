@@ -1,0 +1,5 @@
+Condition,Carrying layers (42/43/44),Matching layers (42/43/44)
+Baseline,L2 / L2 / L2,L3 / L3 / L3
+Lag-1 masked early,L6 / L2 / L6,L7 / L3 / L7
+Lag-2 masked early,L2 / L2 / L2,L3 / L3 / L3
+Lag-1 masked late,L2 / L2 / L2,L3 / L3 / L3
